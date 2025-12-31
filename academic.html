@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Academics | SVRD Jalgaon (Jamod)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <style>
+        body{
+            margin:0;
+            font-family:'Poppins', sans-serif;
+            background:#f5f7fa;
+            color:#333;
+        }
+
+        /* ================= HEADER ================= */
+        header{
+            background:#000;
+            padding:50px 0;
+            text-align:center;
+        }
+
+        /* ===== HEADING IMAGE SLOT ===== */
+        .svrd-heading-box{
+            position:relative;
+            display:inline-block;
+            padding:45px 75px;
+            border-radius:18px;
+            overflow:hidden;
+            box-shadow:0 22px 50px rgba(0,0,0,0.5);
+        }
+
+        .svrd-bg-img{
+            position:absolute;
+            top:0;
+            left:0;
+            width:110%;
+            height:110%;
+            object-fit:cover;
+            filter:brightness(0.5);
+            transform:scale(1.2);
+            z-index:1;
+        }
+
+        .svrd-title{
+            position:relative;
+            z-index:2;
+            font-family:'Playfair Display', serif;
+            font-size:42px;
+            letter-spacing:1.4px;
+            color:#ffffff;
+            text-shadow:
+                0 3px 8px rgba(0,0,0,0.9),
+                0 6px 18px rgba(0,0,0,0.8);
+        }
+
+        /* ================= CONTAINER ================= */
+        .container{
+            max-width:1100px;
+            margin:auto;
+            padding:55px 20px;
+        }
+
+        .section{
+            background:#fff;
+            padding:45px;
+            margin-bottom:32px;
+            border-radius:14px;
+            box-shadow:0 8px 25px rgba(0,0,0,0.08);
+        }
+
+        .section h2{
+            font-family:'Playfair Display', serif;
+            font-size:30px;
+            color:#1c2d4f;
+            border-left:6px solid #f4a300;
+            padding-left:15px;
+            margin-bottom:18px;
+        }
+
+        .section p{
+            font-size:17px;
+            line-height:1.9;
+            margin-bottom:14px;
+        }
+
+        /* ================= ACADEMIC GRID ================= */
+        .academic-grid{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(270px,1fr));
+            gap:28px;
+            margin-top:25px;
+        }
+
+        .academic-box{
+            background:#f9fafc;
+            padding:28px;
+            border-radius:12px;
+            border-top:5px solid #f4a300;
+        }
+
+        .academic-box h3{
+            font-size:21px;
+            margin-bottom:12px;
+            color:#1c2d4f;
+        }
+
+        .academic-box ul{
+            padding-left:18px;
+        }
+
+        .academic-box ul li{
+            margin-bottom:9px;
+            font-size:15.8px;
+            line-height:1.6;
+        }
+
+        /* ================= TABLE ================= */
+        table{
+            width:100%;
+            border-collapse:collapse;
+            margin-top:22px;
+        }
+
+        table th, table td{
+            padding:14px;
+            border:1px solid #ddd;
+            text-align:left;
+            font-size:15.5px;
+        }
+
+        table th{
+            background:#1c2d4f;
+            color:#fff;
+        }
+
+        /* ================= FOOTER ================= */
+        footer{
+            background:#1c2d4f;
+            color:#fff;
+            text-align:center;
+            padding:18px;
+            font-size:14px;
+        }
+
+        /* ================= MOBILE ================= */
+        @media(max-width:768px){
+            .svrd-title{
+                font-size:30px;
+            }
+            .svrd-heading-box{
+                padding:30px 38px;
+            }
+            .section{
+                padding:30px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="svrd-heading-box">
+        <!-- 🔽 ADD YOUR IMAGE LINK HERE 🔽 -->
+        <img src="file:///Users/ompandurangingle/Downloads/IMG_4434.jpg" class="svrd-bg-img" alt="Academics Background">
+        <h1 class="svrd-title">Academics</h1>
+    </div>
+</header>
+
+<div class="container">
+
+    <div class="section">
+        <h2>Academic Vision & Philosophy</h2>
+        <p>
+            At Swami Vivekanand Rashtriya Dnyanpeeth, Jalgaon (Jamod), academics are rooted in the
+            philosophy of holistic education, where intellectual rigor is balanced with ethical
+            values and emotional well-being.
+        </p>
+        <p>
+            Our curriculum framework follows CBSE-aligned best practices, emphasizing conceptual
+            understanding, analytical thinking, problem-solving skills and application-based learning.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>Curriculum Framework</h2>
+        <p>
+            The academic curriculum is designed to be progressive, structured and age-appropriate,
+            ensuring continuity of learning from foundational stages to secondary education.
+        </p>
+
+        <div class="academic-grid">
+            <div class="academic-box">
+                <h3>Foundational Stage (Nursery – UKG)</h3>
+                <ul>
+                    <li>Play-based and activity-oriented learning</li>
+                    <li>Language exposure and phonics development</li>
+                    <li>Early numeracy and logical thinking</li>
+                    <li>Motor skill and sensory development</li>
+                </ul>
+            </div>
+
+            <div class="academic-box">
+                <h3>Primary Stage (Std I – V)</h3>
+                <ul>
+                    <li>Strong foundation in languages and mathematics</li>
+                    <li>Environmental Studies and experiential learning</li>
+                    <li>Introduction to computer education</li>
+                    <li>Creative arts and co-curricular integration</li>
+                </ul>
+            </div>
+
+            <div class="academic-box">
+                <h3>Secondary Stage (Std VI – X)</h3>
+                <ul>
+                    <li>In-depth study of Science and Mathematics</li>
+                    <li>Social Sciences with analytical perspectives</li>
+                    <li>ICT and digital literacy</li>
+                    <li>Board examination preparedness</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Subjects Offered</h2>
+        <table>
+            <tr>
+                <th>Stage</th>
+                <th>Subjects</th>
+            </tr>
+            <tr>
+                <td>Primary</td>
+                <td>English, Marathi/Hindi, Mathematics, EVS, Computer Education</td>
+            </tr>
+            <tr>
+                <td>Middle School</td>
+                <td>English, Mathematics, Science, Social Science, ICT</td>
+            </tr>
+            <tr>
+                <td>Secondary</td>
+                <td>English, Mathematics, Science, Social Science, Information Technology</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>Teaching Methodology</h2>
+        <p>
+            The teaching-learning process at SVRD integrates traditional classroom instruction with
+            modern pedagogical tools to enhance student engagement and comprehension.
+        </p>
+        <p>
+            Classroom practices include interactive discussions, project-based learning,
+            laboratory demonstrations, visual aids and continuous formative assessment.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>Assessment & Evaluation</h2>
+        <p>
+            Student evaluation follows a continuous and comprehensive approach to assess both
+            scholastic and co-scholastic development.
+        </p>
+        <ul>
+            <li>Periodic assessments and unit tests</li>
+            <li>Practical examinations and project work</li>
+            <li>Regular assignments and class participation</li>
+            <li>Structured preparation for board examinations</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Academic Enrichment & Support</h2>
+        <p>
+            To support diverse learning needs, the school provides academic enrichment programmes,
+            remedial classes and mentoring support under the guidance of experienced educators.
+        </p>
+        <p>
+            Regular parent-teacher interactions ensure collaborative monitoring of academic progress
+            and overall student development.
+        </p>
+    </div>
+
+</div>
+
+<footer>
+    © 2025 Swami Vivekanand Rashtriya Dnyanpeeth, Jalgaon (Jamod)
+</footer>
+
+</body>
+</html>
